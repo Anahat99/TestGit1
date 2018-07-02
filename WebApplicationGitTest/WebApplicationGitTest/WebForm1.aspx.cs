@@ -17,6 +17,7 @@ namespace WebApplicationGitTest
         protected void btnshow_Click(object sender, EventArgs e)
         {
             lblmess.Text= DateTime.Now.TimeOfDay.ToString();
+            Label1.Text = lblmess.Text;
         }
     }
 }
