@@ -11,13 +11,13 @@ namespace WebApplicationGitTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            lblmess.Text = "welcome";
+            txt01.Text = DateTime.Now.TimeOfDay.ToString();
         }
 
         protected void btnshow_Click(object sender, EventArgs e)
         {
-            lblmess.Text= DateTime.Now.TimeOfDay.ToString();
-            Label1.Text = lblmess.Text;
+            Response.Redirect("WebForm2.aspx");
         }
     }
 }

@@ -12,6 +12,7 @@
     <asp:Label ID="lblmess" runat="server"></asp:Label>
         <asp:Label ID="Label1" runat="server"></asp:Label>
         <asp:Button ID="btnshow" Text="Show" runat="server" OnClick="btnshow_Click"/>
+        <asp:TextBox ID="txt01" runat="server"></asp:TextBox>
     </div>
     </form>
 </body>
